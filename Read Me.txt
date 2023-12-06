@@ -1,0 +1,37 @@
+						Bitcoin Price Forecasting
+About The Project:
+	The Yahoo Finance Bitcoin Historical Data, spanning from 2014 to 2023, serves as a valuable resource for enthusiasts, data analysts, researchers, and traders alike. Capturing the evolution of Bitcoin's price over a decade, this dataset opens the doors to a plethora of insights and opportunities for understanding the dynamic world of cryptocurrencies.
+
+Inspiration and Benefits:
+	This meticulously curated dataset inspires data explorers to delve deep into the digital currency landscape and unlocks the potential to uncover hidden patterns and trends. Researchers can utilize this wealth of historical data to investigate the correlations between Bitcoin's price movements and various external factors like market sentiment, macroeconomic events, and regulatory changes.
+For traders and investors, this dataset acts as a compass, providing historical context and aiding in the development of more informed trading strategies. Studying past market cycles, identifying support and resistance levels, and analyzing price volatility empowers them to make well-calculated decisions in an ever-fluctuating crypto market.
+	
+	Bitcoin forecasting involves attempting to predict the future price movements of Bitcoin, the most well-known and widely used cryptocurrency. Forecasting the price of Bitcoin is a challenging task due to its volatile nature, influenced by various factors such as market demand, regulatory developments, macroeconomic trends, technological advancements, and investor sentiment.
+
+About the Dataset:
+	This dataset gives information related to Bitcoin Price Forecasting. The dataset contains 7 columns, Volume is the class variable which is affected by the other 6 columns.With the financial dataset containing daily price movements and trading volumes
+of a financial asset. 
+
+Brief description of each column:
+1. Date: The date of the recorded financial data.
+2. High: The highest price of the financial asset (e.g., stock) during the given
+date.
+3. Low: The lowest price of the financial asset during the given date.
+4. Open: The opening price of the financial asset at the beginning of the given
+date.
+5. Close: The closing price of the financial asset at the end of the given date.
+6. Volume: The trading volume or the number of shares/contracts traded
+during the given date.
+7. Adj Close: The adjusted closing price of the financial asset at the end of the
+given date. Adjusted closing prices take into account factors such as
+Dividends and stock splits.
+
+Following are the Conculsions from this Project:
+
+1.Remove null values and duplicate values.
+2.This project may include insights gained through the analysis of these columns, such as identifying trends, assessing volatility, or developing   predictive models for future Bitcoin price movements. It's important to consider the inherent risks and uncertainties associated with    cryptocurrency markets when drawing conclusions from historical data.
+2.In this Project date is  converted into  month-wise to get the output prediction clearly and converted into Datetime format.
+3.Dataset is a weak evidence against null hypothesis, time series has a unit root, indicating dataset is non-stationary.
+4. By taking Differencing Again do  test dickey fuller test to become Dataset Stationary.
+5.The data is seasonal so we use sarima model.
+6.Successfully forecasting Bitcoin prices for two years demonstrates the robustness and accuracy of the employed forecasting model,  showcasing its effectiveness in navigating the complexities of the dynamic cryptocurrency market over an extended period
